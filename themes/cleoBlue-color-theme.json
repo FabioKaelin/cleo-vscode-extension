@@ -1,0 +1,136 @@
+{
+	"name": "_Cleo Blue",
+    "type": "Dark",
+	"include": "./cleo-color-theme.json",
+    "colors": {
+
+        "statusBar.background": "#020088",
+        "statusBarItem.hoverBackground": "#0400ff",
+
+        "editorLineNumber.foreground": "#4144ff",
+        "editorLineNumber.activeForeground": "#00ff2a",
+
+        "editor.selectionBackground": "#3c84b483",
+
+        "editor.inactiveSelectionBackground": "#29648b83",
+        "editor.foreground": "#b6dde4",
+        "editor.background": "#151527",
+
+        "symbolIcon.moduleForeground": "#00eeff",
+        "focusBorder": "#bbdaff",
+
+        "activityBarBadge.background": "#00ff00",
+        "activityBarBadge.foreground": "#0011ff",
+        "activityBar.inactiveForeground": "#605fad",
+        "activityBar.activeBackground": "#020088",
+        "activityBar.foreground": "#3b90ff",
+        "activityBar.background": "#11101d",
+
+        "terminal.foreground": "#b6dde4",
+        "terminal.background": "#071d36",
+
+        "sideBar.background": "#080811",
+
+
+        "statusBar.noFolderBackground": "#001126",
+        "statusBar.debuggingBackground": "#001126",
+        "banner.background": "#051425",
+        "menu.background": "#051425",
+        "dropdown.background": "#051425",
+        "menu.selectionBackground": "#0c325e",
+
+
+
+        "editorGroupHeader.tabsBackground": "#100e1d",
+        "tab.activeBackground": "#14155e",
+        "tab.inactiveBackground": "#191730",
+
+
+
+        "input.background": "#191730",
+
+        "list.inactiveSelectionBackground": "#34335f",
+        "list.activeSelectionBackground": "#1a1358",
+        "list.activeSelectionForeground": "#8284ff",
+
+
+        "editorWidget.background": "#111425",
+        "editorWidget.foreground": "#8284ff",
+
+        "editorSuggestWidget.highlightForeground": "#3735bd",
+        "editorSuggestWidget.focusHighlightForeground": "#0400ff",
+        "editorSuggestWidget.selectedIconForeground": "#8284ff",
+
+        "editorHoverWidget.background": "#0b0c18",
+        "editorHoverWidget.statusBarBackground": "#1b1938",
+
+        "toolbar.hoverBackground": "#333b5f",
+        "button.background": "#33375f",
+        "list.hoverBackground": "#1b1146",
+
+
+
+
+        "scrollbar.shadow": "#0000ff",
+        "scrollbarSlider.background": "#292d5f7e",
+        "scrollbarSlider.activeBackground": "#2422ad75",
+        "scrollbarSlider.hoverBackground": "#3324867e",
+
+
+        "editor.lineHighlightBorder": "#2c375a",
+        "editor.lineHighlightBackground": "#1e1c3a",
+
+        "sideBar.foreground": "#8284ff",
+
+
+
+
+        "keybindingLabel.background": "#1f1958",
+        "keybindingLabel.foreground": "#3652cc",
+        "keybindingLabel.border": "#1e236d",
+        "keybindingLabel.bottomBorder": "#15123d",
+
+        "keybindingTable.headerBackground": "#12133d",
+        "keybindingTable.rowsBackground": "#0f0e30",
+        "icon.foreground": "#2e3dc2",
+        "foreground": "#b6bbe4",
+
+        "widget.shadow": "#0011ffbd",
+        "toolbar.activeBackground": "#2d3e9c",
+
+        "settings.rowHoverBackground": "#1d1f38",
+        "settings.checkboxForeground": "#0000ff",
+        "settings.checkboxBackground": "#1d1f38",
+        "settings.dropdownForeground": "#0000ff",
+        "settings.dropdownBackground": "#1d1f38",
+        "settings.textInputForeground": "#0000ff",
+        "settings.textInputBackground": "#1d1f38",
+        "settings.numberInputForeground": "#0000ff",
+        "settings.numberInputBackground": "#1d1f38",
+        "settings.headerForeground": "#6f77ec",
+
+        "panelTitle.activeForeground": "#646fce",
+        "panelTitle.inactiveForeground": "#b6bbe4",
+
+        "editorLink.activeForeground": "#0d2192",
+        "textLink.activeForeground": "#002fff",
+        "textLink.foreground": "#0f3fdd",
+
+        "editorGutter.background": "#181629",
+
+        "sash.hoverBorder": "#1827ad",
+
+        "titleBar.activeBackground": "#1a1d3d",
+        "titleBar.inactiveBackground": "#0f0e1d",
+        "titleBar.activeForeground": "#483fca",
+        "titleBar.inactiveForeground": "#2a2b8d",
+
+        "dropdown.foreground": "#9f8eff",
+        "dropdown.listBackground": "#1e1964",
+        "dropdown.border": "#1b2475",
+
+        "extensionIcon.starForeground": "#0004ff",
+
+
+    }
+}
