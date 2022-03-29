@@ -2,7 +2,7 @@
     "name": "cleo",
     "displayName": "Cleo",
     "description": "Cleo theme for Visual Studio Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "Cleo",
     "engines": {
         "vscode": "^1.65.0"
@@ -27,7 +27,7 @@
         "viewsWelcome": [
             {
                 "view": "cleoView1",
-                "contents": "Set your Theme to a Cleo-Theme!!!\n[Select Theme](command:workbench.action.selectTheme)\n[Open Folder](command:vscode.openFolder)\n[Open File](command:workbench.action.files.openFile)"
+                "contents": "Set your Theme to a Cleo-Theme!!!\n[Select a Cleo Theme](command:workbench.action.selectTheme)\n[Select Cleo Icon Theme](command:workbench.action.selectIconTheme)\n[Open Folder](command:vscode.openFolder)\n[Open File](command:workbench.action.files.openFile)"
             }
         ],
         "keybindings": [
@@ -103,22 +103,16 @@
         ],
         "themes": [
             {
-                "id": "all dark",
-                "label": "--Dark",
+                "id": "cleo default",
+                "label": "--Cleo Default",
                 "uiTheme": "vs-dark",
-                "path": "./themes/alldark-color-theme.json"
+                "path": "./themes/cleoDefault-color-theme.json"
             },
             {
                 "id": "cleo blue",
                 "label": "-Cleo Blue",
                 "uiTheme": "vs-dark",
                 "path": "./themes/cleoBlue-color-theme.json"
-            },
-            {
-                "id": "cleo default",
-                "label": "--Cleo Default",
-                "uiTheme": "vs-dark",
-                "path": "./themes/cleoDefault-color-theme.json"
             },
             {
                 "id": "cleo green",
@@ -131,6 +125,12 @@
                 "label": "-Cleo Red",
                 "uiTheme": "vs-dark",
                 "path": "./themes/cleoRed-color-theme.json"
+            },
+            {
+                "id": "all dark",
+                "label": "--Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/alldark-color-theme.json"
             }
         ]
     },
