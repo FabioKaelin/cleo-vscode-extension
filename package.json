@@ -1,0 +1,162 @@
+{
+    "name": "cleo",
+    "displayName": "Cleo",
+    "description": "Cleo theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "fabio",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "main": "./out/extension.js",
+    "activationEvents": [
+        "onCommand:extension.viewJson"
+    ],
+    "categories": [
+        "Themes",
+        "Formatters",
+        "Other",
+        "Visualization"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.viewJson",
+                "title": "Open with Cleo-Json"
+            }
+        ],
+        "viewsWelcome": [
+            {
+                "view": "cleoView1",
+                "contents": "Set your Theme to a Cleo-Theme!!!\n[Select Theme](command:workbench.action.selectTheme)\n[Open Folder](command:vscode.openFolder)\n[Open File](command:workbench.action.files.openFile)"
+            }
+        ],
+        "keybindings": [
+            {
+                "key": "ctrl+alt+c",
+                "command": "type",
+                "args": {
+                    "text": "Cleo"
+                },
+                "when": "editorTextFocus"
+            },
+            {
+                "command": "extension.viewJson",
+                "key": "ctrl+j",
+                "mac": "cmd+j",
+                "when": "resourceLangId == json"
+            }
+        ],
+        "menus": {
+            "explorer/context": [
+                {
+                    "when": "resourceLangId == json",
+                    "command": "extension.viewJson",
+                    "group": "navigation@-10"
+                }
+            ],
+            "editor/title/context": [
+                {
+                    "when": "resourceLangId == json",
+                    "command": "extension.viewJson",
+                    "group": "navigation@-10"
+                }
+            ],
+            "editor/context": [
+                {
+                    "when": "resourceLangId == json",
+                    "command": "extension.viewJson",
+                    "group": "navigation@-10"
+                }
+            ],
+            "view/title": [
+                {
+                    "command": "workbench.action.selectTheme",
+                    "when": "view == cleoView1",
+                    "group": "navigation"
+                }
+            ]
+        },
+        "views": {
+            "cleoView": [
+                {
+                    "id": "cleoView1",
+                    "name": "Cleo"
+                }
+            ]
+        },
+        "viewsContainers": {
+            "activitybar": [
+                {
+                    "icon": "fileicons/images/cat.svg",
+                    "id": "cleoView",
+                    "title": "Cleo"
+                }
+            ]
+        },
+        "iconThemes": [
+            {
+                "id": "material-icon-theme",
+                "label": "Cleo Icon Theme",
+                "path": "./dist/material-icons.json",
+                "_watch": true
+            }
+        ],
+        "themes": [
+            {
+                "id": "all dark",
+                "label": "--Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/alldark-color-theme.json"
+            },
+            {
+                "id": "cleo blue",
+                "label": "-Cleo Blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cleoBlue-color-theme.json"
+            },
+            {
+                "id": "cleo default",
+                "label": "--Cleo Default",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cleoDefault-color-theme.json"
+            },
+            {
+                "id": "cleo green",
+                "label": "-Cleo Green",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cleoGreen-color-theme.json"
+            },
+            {
+                "id": "cleo red",
+                "label": "-Cleo Red",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cleoRed-color-theme.json"
+            }
+        ]
+    },
+    "icon": "cleo.png",
+    "keywords": [
+        "theme",
+        "blue",
+        "green",
+        "cleo"
+    ],
+
+    "devDependencies": {
+        "@types/glob": "^7.2.0",
+        "@types/mocha": "^9.1.0",
+        "@types/node": "^14.14.37",
+        "@types/vscode": "^1.34.0",
+        "@typescript-eslint/parser": "^4.22.1",
+        "@vscode/test-electron": "^2.1.2",
+        "eslint": "^7.23.0",
+        "eslint-config-prettier": "^8.1.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-prettier": "^3.3.1",
+        "gulp": "^4.0.2",
+        "lint-staged": "^11.0.0",
+        "mocha": "^9.2.1",
+        "prettier": "^2.2.1",
+        "typescript": "^4.6.3"
+    }
+}
