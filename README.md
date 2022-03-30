@@ -21,9 +21,9 @@ Variante 5: Mit dem Command ```Open with Cleo-Json```
 Hinweis: Die ersten vier Varianten funktionieren nur wenn man ein Json-File offen hat.
 
 <p float="left">
-    <img src="./Screenshots/Editor-Context.png" alt="drawing" style="width:30%;"/>
-    <img src="./Screenshots/editor-Title-Context.png" alt="drawing" style="width:30%;"/>
-    <img src="./Screenshots/Explorer-Context.png" alt="drawing" style="width:30%;"/>
+    <img src="https://github.com/FabioKaelin/cleo-vscode-extension/blob/main/Screenshots/Editor-Context.png?raw=true" alt="drawing" style="width:30%;"/>
+    <img src="https://github.com/FabioKaelin/cleo-vscode-extension/blob/main/Screenshots/editor-Title-Context.png?raw=true" alt="drawing" style="width:30%;"/>
+    <img src="https://github.com/FabioKaelin/cleo-vscode-extension/blob/main/Screenshots/Explorer-Context.png?raw=true" alt="drawing" style="width:30%;"/>
 </p>
 
 [GitHub repository](https://github.com/FabioKaelin/cleo-vscode-extension.git)
