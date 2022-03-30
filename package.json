@@ -138,7 +138,7 @@
 			}
 		]
 	},
-	"icon": "https://github.com/FabioKaelin/cleo-vscode-extension/blob/main/cleo%20Transparent.png?raw=true",
+	"icon": "./cleo Transparent.png",
 	"keywords": [
 		"theme",
 		"blue",
