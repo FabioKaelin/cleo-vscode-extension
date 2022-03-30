@@ -2,7 +2,7 @@
 	"name": "cleo",
 	"displayName": "Cleo",
 	"description": "Cleo extension for Visual Studio Code",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"publisher": "Cleo",
 	"engines": {
 		"vscode": "^1.65.0"
@@ -91,7 +91,7 @@
 		"viewsContainers": {
 			"activitybar": [
 				{
-					"icon": "fileicons/images/cat.svg",
+					"icon": "cat.svg",
 					"id": "cleoView",
 					"title": "Cleo"
 				}
