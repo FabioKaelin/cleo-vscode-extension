@@ -7,7 +7,28 @@ const vscode = require("vscode");
 const path = require("path");
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
+
+// let orange = vscode.window.createOutputChannel("Orange");
 function activate(context) {
+
+
+
+
+	// let disposable1 = vscode.commands.registerCommand('myhelloworld.helloWorld', function () {
+
+
+	// 	vscode.window.showInformationMessage('Hello World from myhelloworld!');
+
+    //     orange.appendLine("ColorTheme: " + JSON.stringify(vscode.window.activeColorTheme));
+    //     // orange.appendLine(JSON.stringify(vscode.));
+    //     // orange.appendLine(":" + JSON.stringify());
+    //     // orange.appendLine(":" + );
+	// });
+
+	// context.subscriptions.push(disposable1);
+
+
+
     // Use the console to output diagnostic information (console.log) and errors (console.error)
     // This line of code will only be executed once when your extension is activated
     //console.log('Congratulations, your extension "jsonviewer" is now active!');
