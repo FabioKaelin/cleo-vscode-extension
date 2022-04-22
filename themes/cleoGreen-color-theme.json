@@ -127,5 +127,12 @@
         "extensionIcon.starForeground": "#1eff00",
 
 
+        "minimap.background": "#0a1c05",
+        "breadcrumb.background": "#0a1c05",
+
+
+        "tab.activeForeground": "#62ff62",
+        "tab.inactiveForeground": "#199e14",
+
 	}
 }

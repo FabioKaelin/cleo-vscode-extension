@@ -2,18 +2,21 @@
 	"name": "Cleo",
     "type": "Dark",
     "colors": {
+
         "statusBar.foreground": "#e7e7e7",
         "editor.selectionBackground": "#3c84b483",
         "editor.inactiveSelectionBackground": "#29648b83",
         "dropdown.listBackground": "#001733",
         "editorBracketMatch.background": "#1a7e75",
 
+
+
         "gitDecoration.untrackedResourceForeground": "#f19710",
         "gitDecoration.deletedResourceForeground": "#bd338f",
         "gitDecoration.ignoredResourceForeground": "#5d669e",
         "gitDecoration.modifiedResourceForeground": "#2da70f",
 		"gitDecoration.renamedResourceForeground": "#ffe600",
-		"gitDecoration.stageModifiedResourceForeground": "#00eeff",
+		"gitDecoration.stageModifiedResourceForeground": "#227278",
 
 		"editorBracketHighlight.foreground1": "#9d4dd3",
         "editorBracketPairGuide.activeBackground1": "#9d4dd3",
@@ -58,6 +61,26 @@
         "terminal.ansiBrightWhite": "#ffffff",
     },
 	"tokenColors": [
+		{
+			"scope":"punctuation.definition.string",
+			"settings": {
+				"foreground": "#f2b752",
+			}
+		},
+		{
+			"scope":"meta.embedded",
+			"settings": {
+				"foreground": "#3b75a4",
+			}
+		},
+
+		{
+			"scope":"punctuation.definition.variable",
+			"settings": {
+				"foreground": "#446666",
+			}
+		},
+
 		{
 			"scope": "comment",
 			"settings": {

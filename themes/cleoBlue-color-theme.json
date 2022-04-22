@@ -4,6 +4,7 @@
 	"include": "./cleo-color-theme.json",
     "colors": {
 
+
 		"debugToolBar.background": "#101131",
 
         "statusBar.background": "#020088",
@@ -27,6 +28,7 @@
         "activityBar.activeBackground": "#020088",
         "activityBar.foreground": "#3b90ff",
         "activityBar.background": "#11101d",
+
 
         "terminal.foreground": "#b6dde4",
         "terminal.background": "#071d36",
@@ -132,6 +134,14 @@
         "dropdown.border": "#1b2475",
 
         "extensionIcon.starForeground": "#0004ff",
+
+
+        "minimap.background": "#05051c",
+        "breadcrumb.background": "#05051c",
+
+
+        "tab.activeForeground": "#62d5ff",
+        "tab.inactiveForeground": "#178fba",
 
 
     }
