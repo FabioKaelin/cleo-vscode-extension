@@ -1,0 +1,5 @@
+{
+	"name": "Cleo",
+    "type": "Dark",
+	"include": "./cleo-color-theme.json",
+}

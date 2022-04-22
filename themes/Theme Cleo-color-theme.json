@@ -1,5 +1,6 @@
 {
 	"name": "Theme Cleo",
+	"include": "./cleo-color-theme.json",
 	"colors": {
 		"editor.background": "#263238",
 		"editor.foreground": "#eeffff",

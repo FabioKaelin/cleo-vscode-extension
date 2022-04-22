@@ -61,8 +61,23 @@
 		{
 			"scope": "comment",
 			"settings": {
+				// "foreground": "#ffffff",
 				"foreground": "#6A9955",
 				"fontStyle": "italic"
+			}
+		},
+		// entity.other.attribute-name
+		{
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#00e1ff",
+			}
+		},
+
+		{
+			"scope": "keyword.other.important",
+			"settings": {
+				"foreground": "#b560dc",
 			}
 		},
 

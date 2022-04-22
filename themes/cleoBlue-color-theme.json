@@ -4,6 +4,8 @@
 	"include": "./cleo-color-theme.json",
     "colors": {
 
+		"debugToolBar.background": "#101131",
+
         "statusBar.background": "#020088",
         "statusBarItem.hoverBackground": "#0400ff",
 

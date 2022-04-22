@@ -1,5 +1,6 @@
 {
 	"name": "__Cleo",
+	"include": "./cleo-color-theme.json",
     "type": "Dark",
     "colors": {
         "statusBar.background": "#020088",

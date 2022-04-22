@@ -3,6 +3,9 @@
     "type": "Dark",
 	"include": "./cleo-color-theme.json",
     "colors": {
+
+		"debugToolBar.background": "#143110",
+
         "statusBar.background": "#008812",
         "statusBarItem.hoverBackground": "#09ff00",
 

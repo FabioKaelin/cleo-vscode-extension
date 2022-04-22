@@ -2,7 +2,7 @@
 	"name": "cleo",
 	"displayName": "Cleo",
 	"description": "Cleo extension for Visual Studio Code",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"publisher": "Cleo",
 	"engines": {
 		"vscode": "^1.65.0"
@@ -171,9 +171,5 @@
 		"publisherDisplayName": "Cleo",
 		"publisherId": "c7d46808-7ea7-4e1e-9233-adaeed9e576f",
 		"isPreReleaseVersion": false
-	},
-	"dependencies": {
-		"vscode": "^1.1.37",
-		"vscode-nls": "^5.0.0"
 	}
 }
