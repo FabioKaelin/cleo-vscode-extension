@@ -113,6 +113,12 @@
 				"path": "./themes/cleoDefault-color-theme.json"
 			},
 			{
+				"id": "cleo yellow",
+				"label": "-Cleo Yellow",
+				"uiTheme": "vs-dark",
+				"path": "./themes/cleoYellow-color-theme.json"
+			},
+			{
 				"id": "cleo blue",
 				"label": "-Cleo Blue",
 				"uiTheme": "vs-dark",
@@ -135,6 +141,12 @@
 				"label": "--Dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/alldark-color-theme.json"
+			},
+			{
+				"id": "all white",
+				"label": "--White",
+				"uiTheme": "vs",
+				"path": "./themes/allwhite-color-theme.json"
 			}
 		]
 	},
