@@ -2,7 +2,7 @@
 	"name": "cleo",
 	"displayName": "Cleo",
 	"description": "Cleo extension for Visual Studio Code",
-	"version": "0.1.3",
+	"version": "0.1.5",
 	"publisher": "Cleo",
 	"engines": {
 		"vscode": "^1.65.0"
@@ -123,6 +123,18 @@
 				"label": "-Cleo Blue",
 				"uiTheme": "vs-dark",
 				"path": "./themes/cleoBlue-color-theme.json"
+			},
+			{
+				"id": "cleo pink",
+				"label": "-Cleo Pink",
+				"uiTheme": "vs-dark",
+				"path": "./themes/cleoPink-color-theme.json"
+			},
+			{
+				"id": "cleo orange",
+				"label": "-Cleo Orange",
+				"uiTheme": "vs-dark",
+				"path": "./themes/cleoOrange-color-theme.json"
 			},
 			{
 				"id": "cleo green",
