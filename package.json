@@ -107,10 +107,10 @@
 		],
 		"themes": [
 			{
-				"id": "cleo default",
-				"label": "--Cleo Default",
+				"id": "cleo normal",
+				"label": "-Cleo Normal",
 				"uiTheme": "vs-dark",
-				"path": "./themes/cleoDefault-color-theme.json"
+				"path": "./themes/cleo-color-theme.json"
 			},
 			{
 				"id": "cleo yellow",
